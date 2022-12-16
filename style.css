@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  background-color: rgb(70, 70, 70);
+}
+
 h1 {
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -68,11 +72,16 @@ i {
 }
 
 .page {
+  /* border: red 1px dashed; */
+  width: 850px;
+  background-color: white;
+  margin: 2rem auto;
+  margin: auto;
   display: grid;
   grid-template-areas:
     "contact experience"
     "info experience";
-  grid-template-columns: 1fr 2fr;
+  /* grid-template-columns: 1fr 2fr; */
   grid-template-rows: 1fr 4fr;
 }
 
