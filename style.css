@@ -208,3 +208,7 @@ i {
 .margin-right {
   width: 12rem;
 }
+
+.center {
+  text-align: center;
+}
